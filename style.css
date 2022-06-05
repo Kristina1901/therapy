@@ -380,7 +380,7 @@ header.header-area .main-menu ul {
 header.header-area .main-menu ul li {
   align-self: center;
   display: inline-block;
-  margin-right: 55px;
+  margin-right: 35px;
 }
 header.header-area .main-menu ul li:last-child {
   margin-right: 0;
@@ -3620,4 +3620,12 @@ footer.footer-area .footer-bottom ul li a:hover {
   border-top: 8px solid #FFFFFF;
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
+}
+.dropdown:hover .arrow {
+    top: 35px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFFFFF;
+    border-top: 8px solid transparent;
+
 }
