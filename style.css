@@ -3751,6 +3751,10 @@ footer.footer-area .footer-bottom ul li a:hover {
 .item {
   padding-top: 24px;
   padding-bottom: 24px;
+ 
+}
+.card {
+  border-radius: 10px 10px 0 0;
 }
 .card .text {
   padding: 20px;
@@ -3758,7 +3762,7 @@ footer.footer-area .footer-bottom ul li a:hover {
   overflow: hidden;
 }
 figure {
-  border-radius: 0 0 50px 0;
+  border-radius: 10px 10px 50px 0;
   overflow: hidden;
   height: 170px;
   margin-bottom: 24px;
@@ -3817,6 +3821,9 @@ figure {
   justify-content: center;
   margin-bottom: 130px;
 }
+.swiper {
+  overflow: hidden;
+}
 @media only screen and (max-width: 991px) {
   .swiper {
       margin: 0;
@@ -3826,3 +3833,226 @@ figure {
       z-index: 1;
     }
   }
+ .parallax-scene {
+   position: absolute;
+   top: 20px;
+   -webkit-transform-origin: top;
+   -ms-transform-origin: top;
+   transform-origin: top;
+   width: 1200px;
+ }
+ [dir=ltr] .parallax-scene {
+   left: 50px;
+ }
+
+ /* [dir=rtl] .parallax-scene {
+   left: -50px;
+ } */
+ .parallax-scene span {
+   background-size: 100%;
+   display: block;
+   position: relative;
+ }
+ @media (max-width: 1279px) {
+  .parallax-scene {
+     display: none;
+   }
+ }
+ .icon-green {
+   top: -200px;
+   width: 320px;
+   height: 600px;
+   background: url("./images/green_buble.png") no-repeat;
+ }
+ [dir=ltr] .icon-green {
+   left: 80px;
+ }
+
+ /* [dir=rtl] .icon-green {
+   right: -80px;
+ } */
+ .icon-red {
+   left: 190px;
+   width: 560px;
+   height: 560px;
+   top: -100px;
+   background: url("./images/red_buble.png") no-repeat;
+ }
+ /* [dir=ltr] .icon-red {
+   left: 190px;
+ } */
+
+ /* [dir=rtl] .icon-red {
+   right: -190px;
+ } */
+ .icon-blue {
+  left: 250px;
+  width: 560px;
+  height: 560px;
+   background: url("./images/blue_buble.png") no-repeat;
+ }
+
+ /* [dir=ltr] .icon-blue {
+   left: 250px;
+ } */
+
+ /* [dir=rtl] .icon-blue {
+   right: -250px;
+ } */
+ .title-deco {
+   position: relative;
+   display: inline-block;
+ }
+
+ .title-deco h3 {
+   overflow: hidden;
+   color: #FFF;
+   padding: 32px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   text-align: center;
+   position: relative;
+   text-transform: capitalize;
+   font-size: 48px;
+   
+ }
+
+ @media (min-width: 960px) {
+   .title-deco h3 {
+     border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     background-color: #28477D;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
+   [dir=ltr] .title-deco h3 {
+     background-position: left center;
+   }
+
+   [dir=rtl] .title-deco h3 {
+     background-position: right center;
+   }
+
+   .title-deco h3.bg-img:before {
+     content: "";
+     width: 100%;
+     height: 100%;
+     background: #3B3B3B;
+     opacity: 0.38;
+     position: absolute;
+     top: 0;
+     left: 0;
+   }
+
+   .title-deco h3 span {
+     position: relative;
+   }
+ }
+
+ @media (max-width: 1279px) {
+   .title-deco h3 {
+     font-size: 38px;
+     line-height: 50px;
+   }
+ }
+
+ @media (max-width: 959px) {
+   .title-deco h3 {
+     padding-bottom: 16px;
+     background: none ;
+     width: auto;
+     text-align: center;
+   }
+
+   .theme--dark .title-deco h3 {
+     color: #28477D;
+   }
+
+   .theme--light .title-deco h3 {
+     color: #28477D;
+   }
+ }
+
+ @media (max-width: 599px) {
+   .title-deco h3 {
+     font-size: 32px;
+     line-height: 42px;
+   }
+ }
+
+ .title-deco:before {
+   content: "";
+   width: 400px;
+   height: 400px;
+   top: -50px;
+   left: -50px;
+   border-radius: 50%;
+   border: 1px solid;
+   position: absolute;
+ }
+
+ .title-deco:before {
+   border-color: #28477D;
+ }
+
+ .title-deco:before {
+   border-color: #28477D;
+ }
+
+ @media (max-width: 959px) {
+   .title-deco:before {
+     display: none;
+   }
+ }
+.parallax-scene {
+  position: absolute;
+  top: 20px;
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  width: 1200px;
+}
+[dir=ltr] .parallax-scene {
+  left: 50px;
+}
+
+/* [dir=rtl] .parallax-scene {
+  left: -50px;
+} */
+
+.parallax-scene span {
+  background-size: 100%;
+  display: block;
+  position: relative;
+}
+
+@media (max-width: 1279px) {
+  .parallax-scene {
+    display: none;
+  }
+}
+ .decoration {
+   width: 600px;
+   height: 600px;
+   top: -150px;
+   right: -150px;
+   border-radius: 50%;
+   border: 1px solid;
+   position: absolute;
+ }
+ .decoration {
+   border-color: #28477D;
+ }
+ .decoration {
+  border-color: #28477D;
+ }
