@@ -3510,6 +3510,7 @@ footer.footer-area .footer-bottom ul li a:hover {
 .dropdown-locations {
   position: relative;
   display: inline-block;
+   
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -3539,7 +3540,8 @@ footer.footer-area .footer-bottom ul li a:hover {
    
 }
 /* Change color of dropdown links on hover */
-#dropdown-content-link-first:hover {
+#dropdown-content-link-first:hover,
+#dropdown-content-link-first:focus {
  color: #28477D;
  
 }
@@ -3581,7 +3583,7 @@ footer.footer-area .footer-bottom ul li a:hover {
     background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 320px;
+    width: 360px;
     height: auto;
     padding: 5px;
     border-radius: 10px;
@@ -3617,15 +3619,54 @@ footer.footer-area .footer-bottom ul li a:hover {
   top: 50%;
   width: 0;
   height: 0;
-  border-top: 8px solid #FFFFFF;
-  border-right: 8px solid transparent;
-  border-left: 8px solid transparent;
+  border-top: 5px solid #FFFFFF;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
 }
-.dropdown:hover .arrow {
-    top: 35px;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid #FFFFFF;
-    border-top: 8px solid transparent;
 
+.card-search {
+  background-color: transparent;
+  display: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 50px;
+  background-color: white;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+#search{
+ border-radius: 50px;
+ height: 50px;
+ padding: 8px;
+ width: 300px;
+ border: none;
+ background-color: white;
+}
+.show-sm-up {
+  /* cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 18px;
+  color: #aaa;
+  font-size: 20px;
+  -webkit-transition: .2s;
+  transition: .2s; */
+  display: none;
+}
+.hero-button {
+  padding: 17px 28px;
+  font-weight: 500;
+  color: #fff;
+  background-image: linear-gradient(to left, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+  border-radius: 50px;
+  border: none;
+  width: 150px;
+  height: 55px;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-image: linear-gradient(to right, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+  transition: .2s all;
 }
