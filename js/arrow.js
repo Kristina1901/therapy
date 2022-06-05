@@ -1,10 +1,14 @@
-// let arrow = document.querySelectorAll(".arrow");
-// for (i = 0; i < arrow.length; i++) {
-//   let thisLink = arrow.prviousSibling;
-//   let submenu = arrow[i].nextSibling;
-//   let thisArrow = arrow[i];
-//   arrow[i].addEventListener("click", function () {
-//     submenu.classList.toggle("open");
-//     thisArrow.classList.toggle("active");
-//   });
+// function cheakingSize() {
+//   let useScreenSize = window.screen.width;
+//   let input = document.getElementById("search");
+//   return function () {
+//     if (useScreenSize > 767) {
+//       input.removeAttribute("placeholder");
+//       input.setAttribute(
+//         "placeholder",
+//         "Search doctor, medicines or clinic..."
+//       );
+//     }
+//     console.log(useScreenSize);
+//   };
 // }

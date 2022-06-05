@@ -3583,7 +3583,7 @@ footer.footer-area .footer-bottom ul li a:hover {
     background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 360px;
+    width: 320px;
     height: auto;
     padding: 5px;
     border-radius: 10px;
@@ -3625,48 +3625,127 @@ footer.footer-area .footer-bottom ul li a:hover {
 }
 
 .card-search {
-  background-color: transparent;
   display: flex;
-  width: 500px;
-  height: 75px;
   border-radius: 50px;
   background-color: white;
-  padding: 8px;
+  padding: 20px;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.input-field {
+  flex-grow: 2;
 }
 #search{
  border-radius: 50px;
- height: 50px;
+ width: 100%;
  padding: 8px;
- width: 300px;
  border: none;
  background-color: white;
-}
-.show-sm-up {
-  /* cursor: pointer;
-  display: block;
-  position: absolute;
-  left: 15px;
-  top: 18px;
-  color: #aaa;
-  font-size: 20px;
-  -webkit-transition: .2s;
-  transition: .2s; */
-  display: none;
+ 
 }
 .hero-button {
-  padding: 17px 28px;
-  font-weight: 500;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
   color: #fff;
-  background-image: linear-gradient(to left, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 14px 40px;
+  padding-bottom: 12px;
+  font-family: 'Orkney';
+  display: inline-block;
   border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
   border: none;
-  width: 150px;
-  height: 55px;
   cursor: pointer;
 }
-.hero-button:hover {
-  background-image: linear-gradient(to right, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
-  transition: .2s all;
+.show-md-up {
+  font-size: 16px;
 }
+.hero-button::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background: #28477D;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: .5s all;
+  border-radius: 50px;
+}
+
+.hero-button:hover {
+  color: #fff;
+}
+
+.hero-button:hover::before {
+  width: 100%;
+}
+
+.hero-button:active {
+  background-image: linear-gradient(to bottom, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
+}
+#search::placeholder {
+  color: #BABABA;
+}
+.fa-solid {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .hero-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding: 11px 23px;
+    padding-bottom: 9px;
+  }
+      .card-search {
+          height: 50px;
+        }
+}
+@media only screen and (max-width: 479px) {
+  .hero-button {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      text-transform: capitalize;
+      padding: 11px 20px;
+     
+    }
+    .show-md-up {
+      display: none;
+    }
+        .fa-solid  {
+          display: block;
+          
+        }
+      .card-search {
+        height: 50px;
+      }
+}
+@media only screen and (max-width: 379px) {
+  .hero-button {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      text-transform: capitalize;
+      padding: 8px 11px;
+      
+    }
+  .show-md-up {
+    display: none;
+  }
+  .fa-solid  {
+    display: block;
+  }
+    .card-search {
+      height: 50px;
+    }
+}
+             
