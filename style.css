@@ -3931,7 +3931,7 @@ figure {
   padding-left: 15px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
 }
 .swiper {
   overflow: hidden;
@@ -4312,6 +4312,9 @@ figure {
     width: 100%;
     margin-top: 16px;
   }
+}
+.asking {
+  margin-top: 30px;
 }
 .asking-center {
   display: flex;
