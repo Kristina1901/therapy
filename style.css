@@ -449,6 +449,12 @@ section.hero-area {
   z-index: 1;
   opacity: 1;
 }
+@media only screen and (max-width: 579px) {
+  section.hero-area {
+      background-image: url(images/heromobile.jpg)
+  }
+}
+
 section.hero-area::before {
   position: absolute;
   content: "";
