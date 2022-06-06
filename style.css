@@ -3872,10 +3872,10 @@ figure {
    right: -80px;
  } */
  .icon-red {
-   left: 190px;
    width: 560px;
    height: 560px;
-   top: -100px;
+   bottom: 700px;
+   right: 100px;
    background: url("./images/red_buble.png") no-repeat;
  }
  /* [dir=ltr] .icon-red {
@@ -3886,10 +3886,11 @@ figure {
    right: -190px;
  } */
  .icon-blue {
-  left: 250px;
-  width: 560px;
-  height: 560px;
-   background: url("./images/blue_buble.png") no-repeat;
+    width: 560px;
+    height: 560px;
+    right: 160px;
+    bottom: 1200px;
+    background: url("./images/blue_buble.png") no-repeat;
  }
 
  /* [dir=ltr] .icon-blue {
@@ -3903,6 +3904,14 @@ figure {
    position: relative;
    display: inline-block;
  }
+ /* #scene :hover {
+  transition:transform 250ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
+  transform: translate(10px, 10px);
+   
+  
+} */
+
+
 
  .title-deco h3 {
    overflow: hidden;
@@ -4056,3 +4065,6 @@ figure {
  .decoration {
   border-color: #28477D;
  }
+.title-deco-main {
+  padding: 100px;
+}
