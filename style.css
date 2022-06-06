@@ -3699,7 +3699,7 @@ footer.footer-area .footer-bottom ul li a:hover {
 #search::placeholder {
   color: #BABABA;
 }
-.fa-solid {
+.glass {
   display: none;
 }
 @media only screen and (max-width: 767px) {
@@ -3727,7 +3727,7 @@ footer.footer-area .footer-bottom ul li a:hover {
     .show-md-up {
       display: none;
     }
-        .fa-solid  {
+        .glass  {
           display: block;
           
         }
@@ -3747,7 +3747,7 @@ footer.footer-area .footer-bottom ul li a:hover {
   .show-md-up {
     display: none;
   }
-  .fa-solid  {
+  .glass  {
     display: block;
   }
     .card-search {
@@ -4263,3 +4263,4 @@ figure {
   }
 }
 
+ 
