@@ -2037,7 +2037,7 @@ footer.footer-area .footer-bottom ul li a:hover {
 @media only screen and (max-width: 991px) {
   .header-area {
     padding: 0 !important;
-    background: #FEFEFE;
+    background: #27447A;
     z-index: 999;
   }
   .header-area .main-menu {
@@ -4248,3 +4248,12 @@ figure {
 .asking-btn:active {
   background-image: linear-gradient(to bottom, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
 }
+.logo-header {
+  width: 50px;
+}
+@media only screen and (min-width: 1100px) {
+.logo-header {
+    width: 100px;
+  }
+}
+
