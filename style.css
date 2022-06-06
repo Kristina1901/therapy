@@ -5126,6 +5126,7 @@ figure {
   .fixed-width {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .block {
     word-break: normal;
