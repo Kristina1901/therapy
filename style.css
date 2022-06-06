@@ -4087,3 +4087,122 @@ figure {
     display: none;
   }
 }
+.card.profile {
+  overflow: visible;
+}
+
+.card.profile .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card.profile .person .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 0 50% 50% 50%;
+  position: relative;
+  top: -8px;
+}
+
+[dir=ltr] .card.profile .person .avatar {
+  left: -8px;
+}
+
+[dir=rtl] .card.profile .person .avatar {
+  right: -8px;
+}
+
+.card.profile .person .name {
+  padding: 8px;
+}
+
+.card.profile .person h4 {
+  font-size: 22px;
+}
+
+.card.profile .person p {
+  font-size: 16px;
+}
+
+.theme--light .card.profile .person p {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.theme--dark .card.profile .person p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card.profile .divider {
+  background: none;
+  margin: 0px 16px 0px 16px;
+}
+
+.theme--light .card.profile .divider {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.theme--dark .card.profile .divider {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.card.profile .action {
+  padding: 16px;
+}
+
+@media (min-width: 960px) {
+  .card.profile .action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.card.profile .action .property span {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.theme--light .card.profile .action .property span {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.theme--dark .card.profile .action .property span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+[dir=ltr] .card.profile .action .property span {
+  margin-right: 32px;
+}
+
+[dir=rtl] .card.profile .action .property span {
+  margin-left: 32px;
+}
+
+.card.profile .action .property span i {
+  font-size: 24px;
+}
+
+@media (min-width: 960px) {
+  .card.profile .action .btn {
+    width: 100px;
+  }
+}
+
+@media (max-width: 959px) {
+  .card.profile .action .btn {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+.asking-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
