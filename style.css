@@ -3904,13 +3904,19 @@ figure {
    position: relative;
    display: inline-block;
  }
- /* #scene :hover {
+ #scene :hover {
   transition:transform 250ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
   transform: translate(10px, 10px);
    
   
-} */
-
+}
+#scene {
+  width: 300px;
+  height: 300px;
+}
+#containerAnimation {
+  margin-bottom: 130px;
+}
 
 
  .title-deco h3 {
@@ -3929,7 +3935,8 @@ figure {
    text-align: center;
    position: relative;
    text-transform: capitalize;
-   font-size: 48px;
+   font-size: 35px;
+   word-break: normal
    
  }
 
@@ -3970,7 +3977,7 @@ figure {
 
  @media (max-width: 1279px) {
    .title-deco h3 {
-     font-size: 38px;
+     font-size: 20px;
      line-height: 50px;
    }
  }
@@ -3981,6 +3988,7 @@ figure {
      background: none ;
      width: auto;
      text-align: center;
+     font-size: 20px;
    }
 
    .theme--dark .title-deco h3 {
@@ -3994,7 +4002,7 @@ figure {
 
  @media (max-width: 599px) {
    .title-deco h3 {
-     font-size: 32px;
+     font-size: 20px;
      line-height: 42px;
    }
  }
@@ -4067,4 +4075,15 @@ figure {
  }
 .title-deco-main {
   padding: 100px;
+}
+ #containerAnimation {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+@media only screen and (max-width: 1200px) {
+  #containerAnimation {
+    display: none;
+  }
 }
