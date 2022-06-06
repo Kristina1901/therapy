@@ -4376,4 +4376,5 @@ figure {
 }
 .footer-text {
   color: white;
+  word-break: normal;
 }
