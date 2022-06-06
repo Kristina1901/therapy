@@ -4206,3 +4206,45 @@ figure {
   align-items: center;
   justify-content: center;
 }
+.asking-btn {
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  font-family: 'Orkney';
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+.asking-btn::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background: #28477D;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: .5s all;
+  border-radius: 50px;
+}
+
+.asking-btn:hover {
+  color: #fff;
+}
+
+.asking-btn:hover::before {
+  width: 100%;
+}
+
+.asking-btn:active {
+  background-image: linear-gradient(to bottom, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
+}
