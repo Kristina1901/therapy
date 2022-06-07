@@ -5146,4 +5146,9 @@ figure {
       align-items: center;
       justify-content: center;
     }
-    
+    /* .book-appionment-area {
+      padding-bottom: 50px;
+    } */
+    .appointment-bg {
+      margin-bottom: 50px;
+    }
