@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- Mirrored from doccure-html.dreamguystech.com/template/index-three.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Mar 2022 01:59:12 GMT -->
 
-  <!-- Mirrored from onceawaken.com/therapist by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jun 2022 07:06:00 GMT -->
+  <!-- Mirrored from onceawaken.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jun 2022 07:06:19 GMT -->
   <!-- Added by HTTrack --><meta
     http-equiv="content-type"
     content="text/html;charset=UTF-8"
@@ -261,107 +261,84 @@
       </div>
     </header>
     <div class="main-wrapper">
-      <div class="breadcrumb-bar">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-md-8 col-12">
-              <nav aria-label="breadcrumb" class="page-breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    <a>Therapist List</a>
-                  </li>
-                </ol>
-              </nav>
-            </div>
-            <!-- <div class="col-md-4 col-12 d-md-block d-none">
-              <form
-                class="sort-by"
-                method="get"
-                action="https://onceawaken.com/sort-by-filter-therapist"
-              >
-                <input
-                  type="hidden"
-                  name="_token"
-                  value="SUhb6O5Ezb34Gup7LURR71nUrWNZVCfylgUWh1SM"
-                />
-                <span class="sort-title">Sort by</span>
-                <span class="sortby-fliter">
-                  <select
-                    class="select form-select"
-                    name="sort_by"
-                    onchange="this.form.submit()"
-                  >
-                    <option value="">Select</option>
-
-                    <option class="sorting" value="popular">Popular</option>
-                    <option class="sorting" value="latest">Latest</option>
-                    <option class="sorting" value="free">Free</option>
-                  </select>
-                </span>
-              </form>
-            </div> -->
-          </div>
-        </div>
-      </div>
       <div class="content">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 col-lg-4 col-xl-3 theiaStickySidebar">
-              <div class="card search-filter">
-                <div class="card-header">
-                  <h4 class="card-title mb-0">Search Filter</h4>
-                </div>
-                <div class="card-body">
-                  <div class="filter-widget">
-                    <div class="cal-icon">
+          <div class="row mb-5">
+            <div class="col-md-8 offset-md-2">
+              <div class="account-content">
+                <div class="row align-items-center justify-content-center">
+                  <!-- <div class="col-md-7 col-lg-6 login-left">
+                            <img src="https://onceawaken.com/web/assets/img/login-banner.png" class="img-fluid" alt="Doccure Login">
+                        </div> -->
+                  <div class="col-md-12 col-lg-12 login-right">
+                    <div class="login-header">
+                      <h3>Login <span>As a Client Or</span></h3>
+                      <p>
+                        <a href="therapist/login.html" style="color: #fff"
+                          >Click here</a
+                        >
+                        to Login As a <b>Therapist</b>
+                      </p>
+                    </div>
+                    <!-- Session Status -->
+
+                    <!-- Validation Errors -->
+                    <form
+                      action="https://onceawaken.com/login-submit"
+                      method="post"
+                    >
                       <input
-                        type="text"
-                        class="form-control datetimepicker"
-                        placeholder="Select Date"
-                        style="background: black; color: white"
+                        type="hidden"
+                        name="_token"
+                        value="SUhb6O5Ezb34Gup7LURR71nUrWNZVCfylgUWh1SM"
                       />
-                    </div>
-                  </div>
-                  <div class="filter-widget">
-                    <h4>Gender</h4>
-                    <div>
-                      <label class="custom_check">
+                      <div class="form-group form-focus">
                         <input
-                          type="checkbox"
-                          name="gender_type"
-                          value="Male"
+                          type="email"
+                          name="email"
+                          class="form-control floating"
+                          required
                         />
-                        <span class="checkmark"></span> Male Doctor
-                      </label>
-                    </div>
-                    <div>
-                      <label class="custom_check">
+                        <label class="focus-label">Email</label>
+                      </div>
+                      <div class="form-group form-focus s-position">
                         <input
-                          type="checkbox"
-                          name="gender_type"
-                          value="Fe-Male"
+                          type="password"
+                          name="password"
+                          class="form-control floating"
+                          required
                         />
-                        <span class="checkmark"></span> Female Doctor
-                      </label>
-                    </div>
-                  </div>
-                  <div class="filter-widget">
-                    <h4>Select Specialist</h4>
-                  </div>
-                  <div class="btn-search">
-                    <button type="button" class="btn w-100 filter_therapist">
-                      Search
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12 col-lg-8 col-xl-9" id="">
-              <div id="append_therapist">
-                <div class="card">
-                  <div class="card-body">
-                    <h3>No Data Found</h3>
+                        <label class="focus-label">Password</label>
+                        <i class="far fa-eye s-cntrl-width"></i>
+                      </div>
+
+                      <button
+                        class="btn btn-primary w-100 btn-lg login-btn"
+                        type="submit"
+                      >
+                        Login
+                      </button>
+                      <div class="login-or">
+                        <span class="or-line"></span>
+                        <span class="span-or">or</span>
+                      </div>
+                      <div class="row form-row social-login">
+                        <div class="col-6">
+                          <a href="#" class="btn btn-facebook w-100"
+                            ><i class="fab fa-facebook-f me-1"></i> Login</a
+                          >
+                        </div>
+                        <div class="col-6">
+                          <a href="#" class="btn btn-google w-100"
+                            ><i class="fab fa-google me-1"></i> Login</a
+                          >
+                        </div>
+                      </div>
+                      <div class="text-center dont-have">
+                        Don’t have an account?
+                        <a href="register.html">Register</a>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -369,7 +346,6 @@
           </div>
         </div>
       </div>
-
       <footer class="footer-area">
         <div class="container">
           <div class="row">
@@ -421,6 +397,7 @@
         </div>
       </footer>
     </div>
+
     <script
       data-cfasync="false"
       src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"
@@ -465,12 +442,12 @@
     <script src="../js/jquery.slicknav.min.js"></script>
     <script src="../js/main.js"></script>
 
-    <!-- <script>
+    <script>
       $(".select2-option").select2({
         placeholder: "Select a option",
         allowClear: true,
       });
-    </script> -->
+    </script>
     <script type="text/javascript">
       Dropzone.autoDiscover = false;
 
@@ -499,5 +476,5 @@
 
   <!-- Mirrored from doccure-html.dreamguystech.com/template/index-three.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Mar 2022 01:59:15 GMT -->
 
-  <!-- Mirrored from onceawaken.com/therapist by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jun 2022 07:06:00 GMT -->
+  <!-- Mirrored from onceawaken.com/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jun 2022 07:06:20 GMT -->
 </html>
