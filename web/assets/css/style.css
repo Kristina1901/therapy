@@ -11859,7 +11859,7 @@ body .multi-optn {
 }
 
 .blog-title a:hover {
-  color: #20c0f3;
+  color: #27447a;
 }
 
 .blog-content p {
@@ -13315,7 +13315,7 @@ ul.benifits-col li i {
   border: 1px solid #e5f1fb;
   border-radius: 8px;
   background-color: transparent;
-  color: #fff !important;
+  color: black !important;
 }
 
 .contact-form form textarea {
