@@ -92,20 +92,21 @@ html {
 body {
   /* background-image: linear-gradient(135deg, #2b4162 50%, #12100e 50%) !important; */
   background: linear-gradient(
-    to bottom,
-    #87c150,
-    #83c058,
-    #7fbf60,
-    #7cbd67,
-    #79bc6e,
-    #72bb77,
-    #6dba7f,
-    #69b987,
-    #62b892,
-    #5eb69c,
-    #5db4a5,
-    #61b2ab
-  );
+      to bottom,
+      #87c150,
+      #83c058,
+      #7fbf60,
+      #7cbd67,
+      #79bc6e,
+      #72bb77,
+      #6dba7f,
+      #69b987,
+      #62b892,
+      #5eb69c,
+      #5db4a5,
+      #61b2ab
+    )
+    fixed;
   color: white;
   font-family: poppins, sans-serif;
   font-size: 0.9375rem;
@@ -544,7 +545,7 @@ button.bg-danger:hover {
 
 .text-danger,
 .dropdown-menu > li > a.text-danger {
-  color: #ff0100 !important;
+  color: #28477d !important;
 }
 
 .text-info,
@@ -2521,7 +2522,7 @@ button.bg-danger:hover {
   height: 50px;
   padding: 21px 12px 6px;
   background-color: transparent;
-  color: #fff !important;
+  color: black !important;
 }
 
 .form-focus .form-control::-webkit-input-placeholder {
@@ -3631,11 +3632,11 @@ html.menu-opened body {
   padding: 14px 31px;
   padding-bottom: 12px;
   font-family: "Orkney";
-  border: 1px solid #f0f0f0;
+  position: relative;
   cursor: pointer;
+  border: 1px solid #f0f0f0;
   display: inline-block !important;
 }
-
 .login-or {
   color: #d4d4d4;
   margin-bottom: 20px;
@@ -11802,8 +11803,8 @@ body .multi-optn {
 
 .blog {
   /* border: 1px solid #f0f0f0; */
-  background-color: #131518;
-  box-shadow: 0 0 5px 5px var(--blue-color-second);
+  background-color: #44a6f0;
+  border: 1px solid #f0f0f0;
   border-radius: 4px;
   margin-bottom: 30px;
   padding: 1.5rem;
@@ -11862,8 +11863,8 @@ body .multi-optn {
 }
 
 .blog-content p {
-  color: #666;
-  font-size: 14px;
+  color: #28477d;
+  font-size: 16px;
   margin: 0 0 30px;
 }
 
@@ -11877,31 +11878,32 @@ body .multi-optn {
 }
 
 .blog-info {
-  color: #757575;
+  color: white;
   font-size: 14px;
   margin-bottom: 15px;
 }
 
 .blog-info a {
-  color: #757575;
+  color: white;
 }
 
 .blog-info a:hover {
-  color: #757575;
+  color: #28477d;
 }
 
 .blog-info i {
-  color: #20c0f3;
+  color: #28477d;
   font-size: 14px;
   margin-right: 5px;
 }
 
 .entry-meta {
-  color: #757575;
+  color: #28477d;
   font-size: 14px;
   list-style: none;
   margin-bottom: 15px;
   padding: 0;
+  font-weight: 800;
 }
 
 .entry-meta li {
@@ -11920,7 +11922,7 @@ body .multi-optn {
 .blog-pagination .pagination li a {
   padding: 12px 20px;
   font-weight: 600;
-  color: #2e3842;
+  color: #28477d;
   margin-right: 10px;
   border-radius: inherit !important;
   border-color: #f0f0f0;
@@ -11931,7 +11933,7 @@ body .multi-optn {
 }
 
 .blog-pagination .pagination li.active a {
-  background: var(--blue-color);
+  background: #28477d;
   border-color: transparent;
   color: #fff;
 }
@@ -12037,9 +12039,10 @@ body .multi-optn {
 }
 
 .post-info p {
-  color: #757575;
+  color: #28477d;
   font-size: 12px;
   margin: 0;
+  font-weight: 800;
 }
 
 .post-info p i {
@@ -12065,14 +12068,15 @@ body .multi-optn {
 }
 
 .category-widget .categories li a {
-  color: #757575;
-  font-size: 15px;
+  color: white;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .category-widget .categories li a span {
   float: right;
-  color: #757575;
+  color: #28477d;
+  font-weight: 800;
 }
 
 .category-widget .categories li a:hover {
@@ -12101,14 +12105,14 @@ body .multi-optn {
 }
 
 .tag {
-  background-color: var(--blue-color-second);
+  background-color: #28477d;
   border-radius: 4px;
   color: #fff;
   padding: 5px 10px;
   position: relative;
   margin: 0 0.5rem 0.5rem 0;
   font-size: 14px;
-  border: 1px solid var(--blue-color-second);
+  border: 1px solid #28477d;
   display: inline-block;
 }
 
@@ -12128,11 +12132,11 @@ body .multi-optn {
 .comments-list .comment-block p {
   font-size: 14px;
   margin-bottom: 5px;
-  color: #757575;
+  color: #28477d;
 }
 
 .author-details p {
-  color: #757575 !important;
+  color: #28477d !important;
 }
 
 .blogs-section {
@@ -12304,7 +12308,7 @@ body .multi-optn {
 
 .social-share > li > a {
   border: 1px solid #dfdfdf;
-  color: #666;
+  color: white;
   display: inline-block;
   font-size: 22px;
   height: 40px;
@@ -12313,7 +12317,7 @@ body .multi-optn {
 }
 
 .social-share > li > a:hover {
-  background-color: #20c0f3;
+  background-color: #28477d;
   color: #fff;
   border-color: #20c0f3;
 }
@@ -12325,7 +12329,7 @@ body .multi-optn {
 }
 
 .blog-date {
-  color: #999;
+  color: white;
   font-size: 12px;
 }
 
@@ -12357,7 +12361,7 @@ body .multi-optn {
 }
 
 .blog-comments .comment-btn {
-  color: #20c0f3;
+  color: #28477d;
   display: inline-block;
   font-weight: 500;
   font-size: 15px;
@@ -13206,12 +13210,12 @@ ul.benifits-col li i {
 }
 
 .contact-section h3 {
-  color: #272b41;
+  color: white;
   font-size: 36px;
 }
 
 .contact-section p {
-  color: #757575;
+  color: white;
   max-width: 710px;
   margin: 0 auto;
 }
@@ -13226,7 +13230,7 @@ ul.benifits-col li i {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #0de0fe;
+  background-color: #28477d;
   box-shadow: 0 10px 4px rgba(0, 0, 0, 0.08);
   display: flex;
   align-items: center;
@@ -13245,12 +13249,12 @@ ul.benifits-col li i {
 }
 
 .contact-box .infor-details {
-  background: #131518;
-  box-shadow: 0 4px 5px 5px var(--blue-color-second);
-  border-radius: 8px;
+  background: #44a6f0;
+  border-radius: 10px;
   padding: 20px;
   padding-top: 80px;
   width: 100%;
+  border: 1px solid #f0f0f0;
 }
 
 .contact-box .infor-details label {
@@ -13260,13 +13264,12 @@ ul.benifits-col li i {
 }
 
 .contact-box .infor-details p {
-  color: #757575 !important;
+  color: white !important;
   font-size: 16px;
-  font-weight: 600;
 }
 
 .contact-box .infor-details p a {
-  color: #757575;
+  color: white;
 }
 
 .contact-form {
@@ -13279,9 +13282,9 @@ ul.benifits-col li i {
 }
 
 .contact-form form {
-  background: #131518;
-  box-shadow: 0 4px 5px 5px var(--blue-color-second);
-  border-radius: 8px;
+  background: #44a6f0;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
   padding: 30px;
   max-width: 1000px;
   width: 100%;
@@ -13289,7 +13292,7 @@ ul.benifits-col li i {
 }
 
 .contact-form form label span {
-  color: red;
+  color: #28477d;
 }
 
 .contact-form form input,
@@ -13309,14 +13312,56 @@ ul.benifits-col li i {
 }
 
 .contact-form .btn {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 11px 30px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  );
   color: #fff;
-  border-radius: 8px;
-  border: 1px solid var(--blue-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 14px 31px;
+  padding-bottom: 12px;
+  font-family: "Orkney";
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
 }
-
+.contact-form .btn::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background: #28477d;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.5s all;
+  border-radius: 50px;
+}
+.contact-form .btn:hover {
+  color: #fff;
+}
+.contact-form .btn:hover::before {
+  width: 100%;
+}
 .contact-map iframe {
   width: 100%;
   border: none;
@@ -24452,4 +24497,60 @@ footer.footer-area .footer-bottom ul li a:hover {
   footer.footer-area .footer-bottom ul li a {
     font-size: 15px;
   }
+}
+.btn-search {
+  background-color: #28477d;
+  color: white;
+  border: none;
+}
+.blog-detail-button {
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  );
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 14px 31px;
+  padding-bottom: 12px;
+  font-family: "Orkney";
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+.blog-detail-button::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background: #28477d;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.5s all;
+  border-radius: 50px;
+}
+.blog-detail-button:hover {
+  color: #fff;
+}
+.blog-detail-button:hover::before {
+  width: 100%;
 }
