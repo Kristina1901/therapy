@@ -74,11 +74,10 @@
     });
   });
 
-  // var wow = new WOW({
-  //     });
-  // wow.init();
+  var wow = new WOW({});
+  wow.init();
 
-  //  setTimeout(function(){
-  //     $('.preloader').fadeToggle();
-  // }, 1000);
+  setTimeout(function () {
+    $(".preloader").fadeToggle();
+  }, 1000);
 })(jQuery);

@@ -216,25 +216,11 @@ label {
 
 .form-control {
   border: 1px solid #c4c4c4 !important;
-  color: #fff !important;
+  color:  black !important;
   font-size: 15px;
   min-height: 46px;
   padding: 6px 15px !important;
-  background: linear-gradient(
-    to bottom,
-    #87c150,
-    #74c067,
-    #64bf7b,
-    #5bbc8c,
-    #59b89a,
-    #4cb7a6,
-    #44b5b0,
-    #42b2b9,
-    #24b1c9,
-    #02afd8,
-    #1babe6,
-    #44a6f0
-  ) !important;
+  background: white !important;
 }
 
 ::-webkit-calendar-picker-indicator {
@@ -261,27 +247,27 @@ label {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: white;
+  color: #bababa;
   font-size: 14px;
 }
 
 .form-control::-moz-placeholder {
-  color: white;
+  color: #bababa;
   font-size: 14px;
 }
 
 .form-control:-ms-input-placeholder {
-  color: white;
+  color: #bababa;
   font-size: 14px;
 }
 
 .form-control::-ms-input-placeholder {
-  color: white;
+  color: #bababa;
   font-size: 14px;
 }
 
 .form-control::placeholder {
-  color: white;
+  color: #bababa;
   font-size: 14px;
 }
 
@@ -8014,7 +8000,7 @@ body .multi-optn {
 }
 
 .cal-icon:after {
-  color: white;
+  color: #bababa;
   content: "\f073";
   display: block;
   font-family: "font awesome 5 free";
