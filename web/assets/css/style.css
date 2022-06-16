@@ -219,8 +219,22 @@ label {
   color: #fff !important;
   font-size: 15px;
   min-height: 46px;
-  /*padding: 6px 15px !important;*/
-  background: black;
+  padding: 6px 15px !important;
+  background: linear-gradient(
+    to bottom,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  ) !important;
 }
 
 ::-webkit-calendar-picker-indicator {
@@ -247,27 +261,27 @@ label {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #858585;
+  color: white;
   font-size: 14px;
 }
 
 .form-control::-moz-placeholder {
-  color: #858585;
+  color: white;
   font-size: 14px;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #858585;
+  color: white;
   font-size: 14px;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #858585;
+  color: white;
   font-size: 14px;
 }
 
 .form-control::placeholder {
-  color: #858585;
+  color: white;
   font-size: 14px;
 }
 
@@ -1373,8 +1387,9 @@ button.bg-danger:hover {
 }
 
 .card .card-header {
-  background-color: #131518;
+  background-color: #28477d;
   border-bottom: 1px solid #f0f0f0;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .card .card-header .card-title {
@@ -1451,7 +1466,7 @@ button.bg-danger:hover {
   border-color: #bbb;
   box-shadow: none;
   outline: 0;
-  background-color: #000;
+  background-color: #28477d;
 }
 
 .form-group {
@@ -7999,7 +8014,7 @@ body .multi-optn {
 }
 
 .cal-icon:after {
-  color: #979797;
+  color: white;
   content: "\f073";
   display: block;
   font-family: "font awesome 5 free";
@@ -8033,7 +8048,21 @@ body .multi-optn {
 }
 
 .custom_check input:checked ~ .checkmark {
-  background-color: black;
+  background: linear-gradient(
+    to bottom,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  );
 }
 
 .custom_check .checkmark {
@@ -8043,7 +8072,7 @@ body .multi-optn {
   height: 20px;
   width: 20px;
   border: 1px solid #dcdcdc;
-  background: #000;
+  background: #28477d;
   border-radius: 3px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -8060,7 +8089,7 @@ body .multi-optn {
   display: none;
   left: 4px;
   top: 0;
-  color: var(--blue-color);
+  color: white;
   font-size: 11px;
 }
 
@@ -8139,8 +8168,22 @@ body .multi-optn {
 }
 
 .btn-search .btn {
-  background-color: var(--blue-color);
-  border: 1px solid var(--blue-color);
+  background: linear-gradient(
+    to bottom,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  );
+  border: 1px solid white;
   color: #fff;
   height: 46px;
   font-weight: 500;
@@ -13938,9 +13981,9 @@ ul.benifits-col li i {
 }
 
 .card {
-  background-color: #131518 !important;
-  box-shadow: 0 0 5px 5px var(--blue-color-second);
+  background-color: #28477d !important;
   border: none;
+  border-radius: 10px;
 }
 
 .appointment-img-holder {
