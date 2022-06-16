@@ -12035,7 +12035,7 @@ body .multi-optn {
 }
 
 .post-info h4 a:hover {
-  color: #20c0f3;
+  color: #27447a;
 }
 
 .post-info p {
@@ -12080,7 +12080,7 @@ body .multi-optn {
 }
 
 .category-widget .categories li a:hover {
-  color: #20c0f3;
+  color: #27447a;
 }
 
 .category-widget .categories > li > a > i {
@@ -12105,7 +12105,7 @@ body .multi-optn {
 }
 
 .tag {
-  background-color: #28477d;
+  background: #28477d;
   border-radius: 4px;
   color: #fff;
   padding: 5px 10px;
@@ -12117,9 +12117,23 @@ body .multi-optn {
 }
 
 .tag:hover {
-  background-color: var(--blue-color);
-  border-color: var(--blue-color);
+  background: linear-gradient(
+    to left,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  );
   color: #fff;
+  border: 1px solid #f0f0f0;
 }
 
 .comment-by {
