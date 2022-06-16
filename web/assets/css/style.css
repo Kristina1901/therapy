@@ -216,7 +216,7 @@ label {
 
 .form-control {
   border: 1px solid #c4c4c4 !important;
-  color:  black !important;
+  color: black !important;
   font-size: 15px;
   min-height: 46px;
   padding: 6px 15px !important;
@@ -1362,7 +1362,6 @@ button.bg-danger:hover {
 }
 
 .card-header {
-  border-bottom: 1px solid #f0f0f0;
   padding: 1rem 1.5rem;
 }
 
@@ -1373,9 +1372,9 @@ button.bg-danger:hover {
 }
 
 .card .card-header {
-  background-color: #28477d;
-  border-bottom: 1px solid #f0f0f0;
+  background-color: #44a6f0;
   border-radius: 10px 10px 0px 0px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .card .card-header .card-title {
@@ -4433,7 +4432,7 @@ html.menu-opened body {
 }
 
 .section-header .color-primary {
-  color: #0071dc;
+  color: #44a6f0;
   font-weight: 700;
 }
 
@@ -8058,7 +8057,7 @@ body .multi-optn {
   height: 20px;
   width: 20px;
   border: 1px solid #dcdcdc;
-  background: #28477d;
+  background: #44a6f0;
   border-radius: 3px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -9129,7 +9128,7 @@ body .multi-optn {
   content: "";
   width: 9px;
   height: 9px;
-  background-color: #20c0f3;
+  background-color: #44a6f0;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(0.1);
@@ -13967,9 +13966,9 @@ ul.benifits-col li i {
 }
 
 .card {
-  background-color: #28477d !important;
+  background-color: #44a6f0 !important;
   border: none;
-  border-radius: 10px;
+  border: 1px solid #f0f0f0;
 }
 
 .appointment-img-holder {
@@ -17979,7 +17978,7 @@ body.home-four {
 }
 
 .looking-grid-four:hover .looking-box-four {
-  background: #01255d;
+  background: #44a6f0;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
@@ -18013,7 +18012,7 @@ body.home-four {
   align-items: center;
   font-weight: 600;
   font-size: 28px;
-  color: #063b6f;
+  color: #28477d;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
@@ -18034,7 +18033,7 @@ body.home-four {
 
 .looking-box-four .looking-inner-box .looking-info-four a i {
   font-size: 40px;
-  color: #0071dc;
+  color: #44a6f0;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
@@ -18081,7 +18080,7 @@ body.home-four {
   align-items: center;
   font-weight: 700;
   font-size: 18px;
-  color: #0071dc;
+  color: #44a6f0;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
@@ -18101,7 +18100,7 @@ body.home-four {
 }
 
 .looking-box-four .looking-inner-box .looking-four-btn a i {
-  color: #0071dc;
+  color: #44a6f0;
   position: relative;
   left: 0;
   -webkit-transition: 0.7s;
