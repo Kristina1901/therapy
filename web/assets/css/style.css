@@ -3567,11 +3567,10 @@ html.menu-opened body {
 }
 
 .login-right {
-  background-color: #131518;
-  border: 1px solid #131518;
-  border-radius: 4px;
+  background-color: #44a6f0;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
   padding: 25px;
-  box-shadow: 0 0 5px 5px var(--blue-color-second);
 }
 
 .login-header {
@@ -3580,7 +3579,7 @@ html.menu-opened body {
 
 .login-header p {
   margin-bottom: 0;
-  color: #757575;
+  color: #28477d;
   margin: 10px 0;
 }
 
@@ -3597,19 +3596,43 @@ html.menu-opened body {
 }
 
 .login-right .dont-have {
-  color: #757575;
+  color: white;
   margin-top: 20px;
   font-size: 13px;
 }
 
 .login-right .dont-have a {
-  color: #10defd;
+  font-weight: 700;
+  color: #28477d;
 }
 
 .login-btn {
-  font-size: 18px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    #87c150,
+    #74c067,
+    #64bf7b,
+    #5bbc8c,
+    #59b89a,
+    #4cb7a6,
+    #44b5b0,
+    #42b2b9,
+    #24b1c9,
+    #02afd8,
+    #1babe6,
+    #44a6f0
+  );
+  color: #fff;
+  font-size: 16px;
   font-weight: 500;
-  /* width: 10% !important; */
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 14px 31px;
+  padding-bottom: 12px;
+  font-family: "Orkney";
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
   display: inline-block !important;
 }
 
@@ -3631,7 +3654,7 @@ html.menu-opened body {
 }
 
 .span-or {
-  background-color: var(--blue-color);
+  background-color: #28477d;
   display: block;
   left: 50%;
   margin-left: -20px;
